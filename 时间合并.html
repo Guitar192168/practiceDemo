@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let list = [11, 15, 16, 17, 18, 19, 21, 22, 24];
+    let j = 1
+    for (let i = 0; i < list.length; i++) {
+        if (list[i] + j === list[i + 1]) {
+            j++;
+            list.splice(i + 1, 1)
+            i--;
+            console.log(list, '111', list.length)
+        } else {
+            list[i] = list[i] + '-' + j
+            j = 1;
+        }
+    }
+    console.log(list)
+</script>
+</body>
+</html>
