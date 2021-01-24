@@ -47,13 +47,71 @@
 
 //递归
 
-function fib(num) {
-    if (num === 1 || num === 2) {
-        return 1
-    }
+// function fib(num) {
+//     if (num === 1 || num === 2) {
+//         return 1
+//     }
+//
+//     return fib(num - 1) + fib(num - 2)
+// }
+//
+// var test = fib(8)
+// console.log(test)
 
-    return fib(num - 1) + fib(num - 2)
+//
+// for (var i = 0; i < 3; i++) {
+//     setTimeout(() => console.log(i), 1)
+// }
+//
+// for (let i = 0; i < 3; i++) {
+//     setTimeout(() => console.log(i,'2222'), 1)
+// }
+
+
+//箭头函数没有this
+// const shape = {
+//     radius: 10,
+//     diameter() {
+//         return this.radius * 2
+//     },
+//     perimeter: () => 2 * Math.PI * this.radius
+// }
+//
+// console.log(shape.diameter())
+// console.log(shape.perimeter())
+
+
+// function Person(name, age, sex) {
+//     var a = 0;
+//     this.name = name
+//
+//     function sss() {
+//         a++;
+//         // document.write(a)
+//         console.log(a)
+//     }
+//
+//     this.say = sss
+// }
+//
+// var oPerspn = new Person()
+// oPerspn.say()
+// oPerspn.say()
+// var oPerspn1 = new Person()
+// oPerspn1.say()
+
+
+function A() {
+
 }
 
-var test = fib(8)
-console.log(test)
+A.prototype.n = 1;
+var b = new A()
+A.prototype = {
+    n: 2,
+    m: 3
+}
+
+var c = new A()
+console.log(b.n, b.m)
+console.log(c.n, c.m)

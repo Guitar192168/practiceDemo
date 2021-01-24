@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48675284-feb5-4418-8357-4a71dad75933" name="Default Changelist" comment="">
+    <list default="true" id="48675284-feb5-4418-8357-4a71dad75933" name="Default Changelist" comment="不用递归，只用for循环，产生斐波那契数列">
+      <change afterPath="$PROJECT_DIR$/右键复制.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片合并.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/复制图片2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/多个click.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/背景1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/队列.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数字取反且变成中文.js" beforeDir="false" afterPath="$PROJECT_DIR$/数字取反且变成中文.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/测试.html" beforeDir="false" afterPath="$PROJECT_DIR$/测试.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -20,25 +29,39 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1mlVzXUFz04Tctyov0MjaG7Rcc6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.数字取反且变成中文.js">
     <configuration name="测试.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/拿来实验/测试.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="队列.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/队列.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="数字取反且变成中文.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数字取反且变成中文.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="数字取反且变成中文.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数字取反且变成中文.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.数字取反且变成中文.js" />
+        <item itemvalue="Node.js.队列.js" />
         <item itemvalue="JavaScript Debug.测试.html" />
       </list>
     </recent_temporary>
@@ -58,6 +81,25 @@
       <workItem from="1610186162398" duration="1222000" />
       <workItem from="1610203454126" duration="3177000" />
       <workItem from="1610251618223" duration="2208000" />
+      <workItem from="1610268349209" duration="303000" />
+      <workItem from="1610269287306" duration="158000" />
+      <workItem from="1610277886652" duration="280000" />
+      <workItem from="1610455199747" duration="1301000" />
+      <workItem from="1610609566213" duration="1727000" />
+      <workItem from="1610691494262" duration="110000" />
+      <workItem from="1610691614761" duration="3989000" />
+      <workItem from="1610696999480" duration="1164000" />
+      <workItem from="1610700130568" duration="308000" />
+      <workItem from="1610714596549" duration="2182000" />
+      <workItem from="1610731159026" duration="34000" />
+      <workItem from="1610733276499" duration="1681000" />
+      <workItem from="1610898729411" duration="883000" />
+      <workItem from="1611030643999" duration="240000" />
+      <workItem from="1611037025243" duration="1186000" />
+      <workItem from="1611055026324" duration="1093000" />
+      <workItem from="1611116752903" duration="425000" />
+      <workItem from="1611397212547" duration="1355000" />
+      <workItem from="1611471678316" duration="1364000" />
     </task>
     <task id="LOCAL-00001" summary="不用递归，只用for循环，产生斐波那契数列">
       <created>1610251747398</created>
@@ -73,17 +115,38 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="不用递归，只用for循环，产生斐波那契数列" />
     <option name="LAST_COMMIT_MESSAGE" value="不用递归，只用for循环，产生斐波那契数列" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="558" y="106" key="CommitChangelistDialog2" timestamp="1610251746243">
+    <state x="558" y="106" key="CommitChangelistDialog2" timestamp="1610691945062">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="558" y="106" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1610251746243" />
+    <state x="558" y="106" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1610691945062" />
+    <state width="1899" height="289" key="GridCell.Tab.0.bottom" timestamp="1611472557861">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1611472557861" />
+    <state width="1899" height="289" key="GridCell.Tab.0.center" timestamp="1611472557861">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="289" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1611472557861" />
+    <state width="1899" height="289" key="GridCell.Tab.0.left" timestamp="1611472557861">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="289" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1611472557861" />
+    <state width="1899" height="289" key="GridCell.Tab.0.right" timestamp="1611472557861">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="289" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1611472557861" />
     <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1610251783047">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1610251783047" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1610697044533">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1610697044533" />
   </component>
 </project>
