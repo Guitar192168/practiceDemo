@@ -101,17 +101,35 @@
 // oPerspn1.say()
 
 
-function A() {
+// function A() {
+//
+// }
+//
+// A.prototype.n = 1;
+// var b = new A()
+// A.prototype = {
+//     n: 2,
+//     m: 3
+// }
+//
+// var c = new A()
+// console.log(b.n, b.m)
+// console.log(c.n, c.m)
 
+
+var b = 1;
+function outer() {
+    var b = 2;
+    function inner(){
+        b++;
+        var b = 3;
+        console.log(b)
+    }
+    inner()
 }
+outer()
 
-A.prototype.n = 1;
-var b = new A()
-A.prototype = {
-    n: 2,
-    m: 3
-}
 
-var c = new A()
-console.log(b.n, b.m)
-console.log(c.n, c.m)
+// var a = [3];
+// var b = [1];
+// console.log(a - b);

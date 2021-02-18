@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48675284-feb5-4418-8357-4a71dad75933" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/防抖.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/伪类和伪元素.html" beforeDir="false" afterPath="$PROJECT_DIR$/伪类和伪元素.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数字取反且变成中文.js" beforeDir="false" afterPath="$PROJECT_DIR$/数字取反且变成中文.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +39,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.防抖.html">
+  <component name="RunManager" selected="JavaScript Debug.伪类和伪元素.html">
     <configuration name="测试.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/拿来实验/测试.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="伪类和伪元素.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/拿来实验/伪类和伪元素.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="防抖.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:56317/拿来实验/防抖.html" useBuiltInWebServerPort="true">
@@ -54,9 +58,16 @@
     <configuration name="数字取反且变成中文.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数字取反且变成中文.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="数字取反且变成中文.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数字取反且变成中文.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="数字取反且变成中文.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数字取反且变成中文.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.防抖.html" />
+        <item itemvalue="JavaScript Debug.伪类和伪元素.html" />
+        <item itemvalue="Node.js.数字取反且变成中文.js" />
         <item itemvalue="Node.js.队列.js" />
         <item itemvalue="JavaScript Debug.测试.html" />
       </list>
@@ -96,7 +107,16 @@
       <workItem from="1611116752903" duration="425000" />
       <workItem from="1611397212547" duration="1355000" />
       <workItem from="1611471678316" duration="1386000" />
-      <workItem from="1611499323965" duration="687000" />
+      <workItem from="1611499323965" duration="866000" />
+      <workItem from="1613441846672" duration="168000" />
+      <workItem from="1613442369251" duration="69000" />
+      <workItem from="1613442458148" duration="143000" />
+      <workItem from="1613443525853" duration="21000" />
+      <workItem from="1613443560561" duration="174000" />
+      <workItem from="1613541044262" duration="207000" />
+      <workItem from="1613541265504" duration="56000" />
+      <workItem from="1613541342360" duration="88000" />
+      <workItem from="1613627563357" duration="1961000" />
     </task>
     <task id="LOCAL-00001" summary="不用递归，只用for循环，产生斐波那契数列">
       <created>1610251747398</created>
@@ -112,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611473061737</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="防抖的this">
+      <created>1611500144758</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611500144758</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,36 +149,37 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="不用递归，只用for循环，产生斐波那契数列" />
     <MESSAGE value="prototype问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="prototype问题" />
+    <MESSAGE value="防抖的this" />
+    <option name="LAST_COMMIT_MESSAGE" value="防抖的this" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="558" y="106" key="CommitChangelistDialog2" timestamp="1611473059898">
+    <state x="558" y="106" key="CommitChangelistDialog2" timestamp="1611500143465">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="558" y="106" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1611473059898" />
-    <state width="1899" height="289" key="GridCell.Tab.0.bottom" timestamp="1611473065696">
+    <state x="558" y="106" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1611500143465" />
+    <state width="1899" height="289" key="GridCell.Tab.0.bottom" timestamp="1613629435124">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1611473065696" />
-    <state width="1899" height="289" key="GridCell.Tab.0.center" timestamp="1611473065696">
+    <state width="1899" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1613629435124" />
+    <state width="1899" height="289" key="GridCell.Tab.0.center" timestamp="1613629435124">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="289" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1611473065696" />
-    <state width="1899" height="289" key="GridCell.Tab.0.left" timestamp="1611473065695">
+    <state width="1899" height="289" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1613629435124" />
+    <state width="1899" height="289" key="GridCell.Tab.0.left" timestamp="1613629435124">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="289" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1611473065695" />
-    <state width="1899" height="289" key="GridCell.Tab.0.right" timestamp="1611473065696">
+    <state width="1899" height="289" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1613629435124" />
+    <state width="1899" height="289" key="GridCell.Tab.0.right" timestamp="1613629435124">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="289" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1611473065696" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1611473063253">
+    <state width="1899" height="289" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1613629435124" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1611500162218">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1611473063253" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1610697044533">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1611500162218" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1613442483254">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1610697044533" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1613442483254" />
   </component>
 </project>

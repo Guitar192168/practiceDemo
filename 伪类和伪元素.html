@@ -5,16 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        li:first-letter{
-            color:pink;
+        li:first-letter {
+            color: pink;
         }
 
-        li:hover{
+        li:hover {
             font-size: 30px;
         }
     </style>
 </head>
 <body>
-    <li>hello 你好</li>
+<li>hello 你好</li>
+
+<script>
+    // var b = 1;
+    //
+    // function outer() {
+    //     var b = 2;
+    //
+    //     function inner() {
+    //         b++;
+    //         var b = 3;
+    //         console.log(b)
+    //     }
+    //
+    //     inner()
+    // }
+    //
+    // outer()
+
+
+
+    //考察let和var 作用域的问题
+    for(var i = 0; i < 5; i++){
+        var btn = document.createElement('button');
+        btn.appendChild(document.createTextNode('按钮' + i))
+        btn.addEventListener('click',function(){
+            console.log(i)
+        })
+        document.body.appendChild(btn)
+    }
+
+</script>
 </body>
 </html>
