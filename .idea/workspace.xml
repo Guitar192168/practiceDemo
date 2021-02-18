@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48675284-feb5-4418-8357-4a71dad75933" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/伪类和伪元素.html" beforeDir="false" afterPath="$PROJECT_DIR$/伪类和伪元素.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数字取反且变成中文.js" beforeDir="false" afterPath="$PROJECT_DIR$/数字取反且变成中文.js" afterDir="false" />
-    </list>
+    <list default="true" id="48675284-feb5-4418-8357-4a71dad75933" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,7 +112,7 @@
       <workItem from="1613541044262" duration="207000" />
       <workItem from="1613541265504" duration="56000" />
       <workItem from="1613541342360" duration="88000" />
-      <workItem from="1613627563357" duration="1961000" />
+      <workItem from="1613627563357" duration="2091000" />
     </task>
     <task id="LOCAL-00001" summary="不用递归，只用for循环，产生斐波那契数列">
       <created>1610251747398</created>
@@ -139,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611500144758</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="'undefined++'和let和var的考察">
+      <created>1613630275026</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613630275026</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,33 +153,34 @@
     <MESSAGE value="不用递归，只用for循环，产生斐波那契数列" />
     <MESSAGE value="prototype问题" />
     <MESSAGE value="防抖的this" />
-    <option name="LAST_COMMIT_MESSAGE" value="防抖的this" />
+    <MESSAGE value="'undefined++'和let和var的考察" />
+    <option name="LAST_COMMIT_MESSAGE" value="'undefined++'和let和var的考察" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="558" y="106" key="CommitChangelistDialog2" timestamp="1611500143465">
+    <state x="558" y="106" key="CommitChangelistDialog2" timestamp="1613630273740">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="558" y="106" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1611500143465" />
-    <state width="1899" height="289" key="GridCell.Tab.0.bottom" timestamp="1613629435124">
+    <state x="558" y="106" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1613630273740" />
+    <state width="1899" height="289" key="GridCell.Tab.0.bottom" timestamp="1613630362793">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1613629435124" />
-    <state width="1899" height="289" key="GridCell.Tab.0.center" timestamp="1613629435124">
+    <state width="1899" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1613630362793" />
+    <state width="1899" height="289" key="GridCell.Tab.0.center" timestamp="1613630362793">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="289" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1613629435124" />
-    <state width="1899" height="289" key="GridCell.Tab.0.left" timestamp="1613629435124">
+    <state width="1899" height="289" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1613630362793" />
+    <state width="1899" height="289" key="GridCell.Tab.0.left" timestamp="1613630362792">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="289" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1613629435124" />
-    <state width="1899" height="289" key="GridCell.Tab.0.right" timestamp="1613629435124">
+    <state width="1899" height="289" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1613630362792" />
+    <state width="1899" height="289" key="GridCell.Tab.0.right" timestamp="1613630362793">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="289" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1613629435124" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1611500162218">
+    <state width="1899" height="289" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1613630362793" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1613630323845">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1611500162218" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1613630323845" />
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1613442483254">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
